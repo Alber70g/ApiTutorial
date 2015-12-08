@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "description": "Victim Console Application",
+  "authors": [ "" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "tooling": {
+    "defaultNamespace": "Victim"
+  },
+
+  "dependencies": {
+    "RestSharp": "105.2.3",
+    "Newtonsoft.Json": "8.0.1-beta3"
+  },
+
+  "commands": {
+    "Victim": "Victim"
+  },
+
+  "frameworks": {
+    "dnx451": { 
+    }    
+  }
+}
